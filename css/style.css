@@ -95,6 +95,7 @@ h3 { font-size: var(--fs-h3) ;}
 .nav-item{
     float: left;
     margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .nav_link{
@@ -121,8 +122,6 @@ h3 { font-size: var(--fs-h3) ;}
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
 }
 
 .intro_text{
@@ -140,7 +139,6 @@ h3 { font-size: var(--fs-h3) ;}
 
 }
 
-
 .section_subtitle{
     margin: auto;
     font-size: var(--fs-h3);
@@ -150,8 +148,6 @@ h3 { font-size: var(--fs-h3) ;}
     text-align: center;
     width: 100%;
 }
-
-
 
 #Home_title{
     color: var(--clr-dark);
@@ -198,7 +194,7 @@ h3 { font-size: var(--fs-h3) ;}
 }
 
 .About_me_div{
-    border-radius: 10%;
+    border-radius: 15%;
     position: top;
     margin: 0 auto;
 }
@@ -285,14 +281,12 @@ h3 { font-size: var(--fs-h3) ;}
     width: 60%;
     height: 2px;
     margin-top: 0.5rem;
-
 }
 
 .School_body_div{
     background-color: var(--clr-accent);
     width: 100%;
     border-radius: 5%;
-
 }
 
 .Course_list{
@@ -358,7 +352,6 @@ h3 { font-size: var(--fs-h3) ;}
     height: 2px;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-
 }
 
 .Work_img{
@@ -378,8 +371,68 @@ h3 { font-size: var(--fs-h3) ;}
     padding-right: 5%;
     margin-left: 5%;
     margin-right: 5%;
-    margin: auto;
+   
 }
+
+/* Projects */
+
+#Project_title{
+    color: var(--clr-light);
+    margin-top: 5rem;
+}
+
+#Project_title::after{
+    content: '';
+    display: block;
+    margin: auto;
+    background-color: var(--clr-accent);
+    width: 40%;
+    height: 2px;
+    margin-bottom: 1rem;
+}
+
+.Project_body{
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+}
+
+.Project_item{
+    background-color: var(--clr-accent);
+    border-radius: 5%;
+
+}
+
+.Project_item_title{
+    text-align: center;
+    color: var(--clr-light);
+    margin: 1rem;
+}
+
+.Project_item_title::after{
+    content: '';
+    display: block;
+    margin: auto;
+    background-color: var(--clr-dark);
+    width: 80%;
+    height: 2px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Project_item_desc{
+    text-align: center;
+    color: var(--clr-light);
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+/* Footer */
 
 .Footer{
     background-color: var(--clr-accent);
