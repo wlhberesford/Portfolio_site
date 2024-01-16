@@ -381,19 +381,50 @@ h3 { font-size: var(--fs-h3) ;}
     margin: auto;
 }
 
-
-
-
-
-
-
 .Footer{
     background-color: var(--clr-accent);
-    margin: 0;
+    height: auto;
 }
 
-.Email_link{
+.Footer_title{
+    text-align: center;
     color: var(--clr-dark);
+}
+
+.Footer_Body{
+    display: block;
+}
+
+.Footer_emails{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Footer_link{
+    color: var(--clr-dark);
+    text-decoration: none;
+    font-weight: var(--fw-half-bold);
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.Footer_link:hover{
+    color: var(--clr-accent);
+    background-color: var(--clr-light);
+}
+
+.Footer_Socials{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.Footer_icon{
+    width: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
 }
 
 
