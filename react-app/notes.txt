@@ -1,0 +1,5 @@
+color palette:
+ - Main:    fefae0
+ - Secondary:   d4a373
+ - Accent:  e9edc9
+ - Secondary Accent:    ccd5ae

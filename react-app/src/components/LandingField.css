@@ -1,0 +1,52 @@
+:root {
+    --color-main: #f3e9dc;
+    --color-secondary: #5e3023;
+    --color-accent: #895737;
+    --color-secondary-accent: #c08552;
+}
+
+.LandingField {
+    height: 60vh;
+    width: 100%;
+    background-color: var(--color-main);
+    display: flex;           /* Add this */
+    flex-direction: row;
+}
+
+.LF-left,
+.LF-right {
+    width: 40%;
+    display: flex;          
+    justify-content: center; 
+    align-items: center; 
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.LF-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: Left;
+    width: 100%;
+}
+
+.LF-title{
+    text-align: Left;
+    font-size: 4rem;
+    color: var(--color-secondary);
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.LF-body{
+    font-size: 1.5rem;
+    color: var(--color-secondary);
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+

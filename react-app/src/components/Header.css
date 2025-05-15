@@ -1,0 +1,48 @@
+:root {
+    --color-main: #f3e9dc;
+    --color-secondary: #5e3023;
+    --color-accent: #895737;
+    --color-secondary-accent: #c08552;
+}
+
+
+.header{
+    background-color: var(--color-secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.site-title{
+    font-size: 2rem;
+    color: var(--color-main);
+}
+
+.site-nav{
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+
+}
+
+.site-nav-item{
+    font-size: 1.5rem;
+    color: var(--color-main);
+    text-decoration: none;
+    float: left;
+    padding-right: 1.5rem;
+}
+
+.site-nav-link{
+    font-size: 1.5rem;
+    color: var(--color-main);
+    text-decoration: none;
+    float: left;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
