@@ -6,21 +6,30 @@
 }
 
 .LandingField {
-    height: 60vh;
+    height: 35rem;
     width: 100%;
     background-color: var(--color-main);
     display: flex;           /* Add this */
     flex-direction: row;
 }
 
-.LF-left,
-.LF-right {
+.LF-left{
+    height: 90%;
     width: 40%;
     display: flex;          
     justify-content: center; 
     align-items: center; 
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 8%;
+    padding-right: 2%;
+}
+.LF-right {
+    height: 90%;
+    width: 40%;
+    display: flex;          
+    justify-content: center; 
+    align-items: center; 
+    padding-left: 2%;
+    padding-right: 8%;
 }
 
 .LF-text{
@@ -43,10 +52,18 @@
 
 .LF-body{
     font-size: 1.5rem;
-    color: var(--color-secondary);
+    color: var(--color-accent);
     font-weight: 400;
     margin: 0;
     padding: 0;
+}
+
+.LandingField img{
+    width: auto;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 

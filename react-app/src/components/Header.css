@@ -24,25 +24,32 @@
     display: flex;
     gap: 1rem;
     list-style-type: none;
+    color: green;;
 
 }
 
 .site-nav-item{
     font-size: 1.5rem;
-    color: var(--color-main);
+    /* color: var(--color-main); */
+    color: green;
     text-decoration: none;
     float: left;
-    padding-right: 1.5rem;
+    padding-right: 1rem;
+    text-align: center;
 }
+
+
 
 .site-nav-link{
     font-size: 1.5rem;
-    color: var(--color-main);
+    color: green;
+    /* color: var(--color-main);  */
     text-decoration: none;
     float: left;
 }
-a {
-  color: inherit;
-  text-decoration: inherit;
-  cursor: inherit;
-}
+
+.site-nav-link:hover{
+    color: var(--color-main);
+} 
+
+
