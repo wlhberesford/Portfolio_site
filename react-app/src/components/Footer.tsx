@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 
+
 export default function Footer() {
   return (
     <div className='footer'>
@@ -9,9 +10,9 @@ export default function Footer() {
         </div>
         <div className='contact-list-container'>
           <ul className='contact-list'>
-              <li className='site-nav-item'><a href="#landing" className='site-nav-link'>Home</a></li>
-              <li className='site-nav-item'><a href="#about-me" className='site-nav-link'>About Me</a></li>
-              <li className='site-nav-item'><a href="#projects" className='site-nav-link'>Projects</a></li>
+              <li className='site-nav-item'><a href="mailto:wlhberesford@gmail.com" className='site-nav-link'>Email</a></li>
+              <li className='site-nav-item'><a href="https://www.linkedin.com/in/liam-beresford/" className='site-nav-link'>LinkedIn</a></li>
+              <li className='site-nav-item'><a href="https://github.com/wlhberesford" className='site-nav-link'>GitHub</a></li>
           </ul>
         </div>
         
